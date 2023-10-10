@@ -1,6 +1,6 @@
 Integração contínua utilizando Jenkins:
 
-  -Utilizando código próprio feito em um exercício da gradução, realizei teste unitário simples visando prioritariamente a integração do código e teste via Github com o Jenkins
+  -Utilizando código próprio feito em um exercício da graduação, realizei teste unitário simples visando prioritariamente a integração do código e teste via Github com o Jenkins
 
 Segue print das etapas realizadas com sucesso
 
