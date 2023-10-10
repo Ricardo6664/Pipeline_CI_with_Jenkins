@@ -1,1 +1,1 @@
-Criando integração contínua com Jenkins
+Integração contínua com Jenkins
