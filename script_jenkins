@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                    checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: '42e9da87-57c8-4cfe-9797-bdad0d001913', url: 'git@github.com:Ricardo6664/pipeline_CI_jenkins.git']])            
+                
+            }
+        }
+        stage('Build') {
+            steps {
+                    git credentialsId: '42e9da87-57c8-4cfe-9797-bdad0d001913', url: 'git@github.com:Ricardo6664/pipeline_CI_jenkins.git'
+                    sh 'python3 Mean.py'
+            }
+    }
+    stage('Test') {
+            steps {
+                    sh 'pytest projeto-ci-cd.py'
+                    }
+                    }
+            }
+}
+
