@@ -1,4 +1,4 @@
 Integração contínua utilizando Jenkins
 
-![image](https://github.com/Ricardo6664/pipeline_CI_jenkins/assets/124509531/efc1b395-3167-4429-bcfb-231b339a3bbe)
 
+![Screenshot from 2023-10-10 11-45-24](https://github.com/Ricardo6664/Pipeline_continuous_integration_with_Jenkins/assets/124509531/1f4473e7-28b8-4fe6-ae13-f2283f84f0ce)
